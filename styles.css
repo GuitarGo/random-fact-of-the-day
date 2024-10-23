@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    color: #ffffff; /* White text color */
+}
+
+h1 {
+    font-size: 3em; /* Larger font size */
+    margin-bottom: 20px; /* Space below heading */
+    color: #ffffff; /* White text color */
+}
+
+button {
+    padding: 15px 30px; /* Larger padding */
+    font-size: 1.5em; /* Larger font size */
+    background-color: #1e90ff; /* DodgerBlue */
+    color: white;
+    border: none;
+    border-radius: 10px; /* More rounded corners */
+    cursor: pointer;
+    margin-top: 20px; /* Space above button */
+}
+
+button:hover {
+    background-color: #104e8b; /* Darker blue */
+}
+
+#fact-container {
+    margin-top: 30px; /* Space above fact container */
+    font-size: 1.5em; /* Larger font size */
+    color: #ffffff; /* White text color */
+    max-width: 80%; /* Restrict width for readability */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+.fireworks-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Make sure fireworks don't block interactions */
+}
